@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest companies in the USA</title>
+    <link href="styl.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Largest companies in the United States by revenue</h1>
+    </header>
+    
+    <article>
+        <h2>List of largest companies in the United States by revenue</h2>
+        <ol type="I">
+            <li><strong>Walmart</strong></li>
+            <li><strong>Amazon</strong></li>
+            <li><strong>Exxon Mobil</strong></li>
+            <li><strong>Apple</strong></li>
+            <li><strong>UnitedHealth Group</strong></li>
+            <li><strong>CVS Health</strong></li>
+            <li><strong>Berkshire Hathaway</strong></li>
+            <li><strong>Alphabet</strong></li>
+            <li><strong>McKesson Corporation</strong></li>
+            <li><strong>Chevron Corporation</strong></li>
+        </ol>
+
+        <h2>Table of largest companies</h2>
+        <table border="1">
+            <caption>Data related to companies:</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Industry</th>
+                    <th>Revenue (USD millions)</th>
+                    <th>Revenue growth</th>
+                    <th>Employees</th>
+                    <th>Headquarters</th>
+                    <th>Logo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Walmart</strong></td>
+                    <td>Retail</td>
+                    <td>611,289</td>
+                    <td>6.7%</td>
+                    <td>2,100,000</td>
+                    <td>Bentonville, Arkansas</td>
+                    <td><img src="walmart-logo.png" alt="" height=100 width=100</img></td>
+                </tr>
+                <tr>
+                    <td><strong>Amazon</strong></td>
+                    <td>Retail and cloud computing</td>
+                    <td>513,983</td>
+                    <td>9.4%</td>
+                    <td>1,540,000</td>
+                    <td>Seattle, Washington</td>
+                    <td><img src="amazon-logo.png" alt="" height=100 width=100</img></td>
+                </tr>
+                <tr>
+                    <td><strong>ExxonMobil</strong></td>
+                    <td>Petroleum industry</td>
+                    <td>413,680</td>
+                    <td>44.8%</td>
+                    <td>62,000</td>
+                    <td>Spring, Texas</td>
+                    <td><img src="exxon.png" alt="" height=100 width=100</img></td>
+                </tr>
+                <tr>
+                    <td><strong>Apple</strong></td>
+                    <td>Electronics industry</td>
+                    <td>394,328</td>
+                    <td>7.8%</td>
+                    <td>164,000</td>
+                    <td>Cupertino, California</td>
+                    <td><img src="apple.png" alt="" height=100 width=100</img></td>
+                </tr>
+                <tr>
+                    <td><strong>UnitedHealthGroup</strong></td>
+                    <td>Healthcare</td>
+                    <td>324,162</td>
+                    <td>12.7%</td>
+                    <td>400,000</td>
+                    <td>Minnetonka, Minnesota</td>
+                    <td><img src="uhg.png" alt="" height=100 width=100</img></td>
+                </tr>
+                <tr>
+                    <td><strong>CVS Health</strong></td>
+                    <td>Healthcare</td>
+                    <td>322,467</td>
+                    <td>10.4%</td>
+                    <td>259,500</td>
+                    <td>Woonsocket, Rhode Island</td>
+                    <td><img src="cvs.png" alt="" height=100 width=100</img></td>
+                </tr>
+                <tr>
+                    <td><strong>Berkshire Hathaway</strong></td>
+                    <td>Conglomerates</td>
+                    <td>302,089</td>
+                    <td>9.4%</td>
+                    <td>383,000</td>
+                    <td>Omaha, Nebraska</td>
+                    <td><img src="bh.png" alt="" height=100 width=100</img></td>
+                </tr>
+                <tr>
+                    <td><strong>Alphabet</strong></td>
+                    <td>Technology and cloud computing</td>
+                    <td>282,836</td>
+                    <td>9.8%</td>
+                    <td>156,000</td>
+                    <td>Mountain View, California</td>
+                    <td><img src="google.png" alt="" height=100 width=100</img></td>
+                </tr>
+                <tr>
+                    <td><strong>McKesson Corporation</strong></td>
+                    <td>Health</td>
+                    <td>276,711</td>
+                    <td>4.8%</td>
+                    <td>48,500</td>
+                    <td>Irving, Texas</td>
+                    <td><img src="mck.png" alt="" height=100 width=100</img></td>
+                </tr>
+                <tr>
+                    <td><strong>Chevron Corporation</strong></td>
+                    <td>Petroleum industry</td>
+                    <td>246,252</td>
+                    <td>51.6%</td>
+                    <td>43,846</td>
+                    <td>San Ramon, California</td>
+                    <td><img src="chev.png" alt="" height=100 width=100</img></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <details>
+            <summary>Click for more informations</summary>
+            <a href="https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue">
+                Data is taken from this wikipedia site
+            </a>
+        </details>
+        
+        <h2>Choose your favourite company</h2>
+        <form>
+            <label for="fname">Your name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="Company">Your favourite company:</label><br>
+            <select id="Company" name="Company">
+                <optgroup label="USA Companies">
+                    <option value="Walmart">Walmart</option>
+                    <option value="Amazon">Amazon</option>
+                    <option value="ExxonMobile">ExxonMobil</option>
+                    <option value="Apple">Apple</option>
+                    <option value="UnitedHealthGroup">UnitedHealthGroup</option>
+                    <option value="CVS Health">CVS Health</option>
+                    <option value="Berkshire Hathaway">Berkshire Hathaway</option>
+                    <option value="Alphabet">Alphabet</option>
+                    <option value="McKesson Corporation">McKesson Corporation</option>
+                    <option value="Chevron Corporation">Chevron Corporation</option>
+                </optgroup>
+            </select><br>
+            <button type="button" onclick="submitForm()">Send</button>
+        </form>
+
+        <div id="result" style="display: none;">
+            <p id="userInfo"></p>
+        </div>
+
+        <script>
+            function submitForm() {
+                var userName = document.getElementById("fname").value;
+                var selectedCompany = document.getElementById("Company").value;
+                var message = userName + "'s favourite company is " + selectedCompany;
+                document.getElementById("userInfo").innerText = message;
+                document.getElementById("result").style.display = "block";
+            }
+        </script>
+        
+        <h2>USA Map</h2>
+        <img src="usa-map1.jpg" usemap="#image-map">
+        <map name="image-map">
+            <area target="" alt="Amazon Company" title="Amazon Company" href="https://en.wikipedia.org/wiki/Amazon_(company)" coords="106,31,148,73" shape="rect">
+            <area target="" alt="Walmart Company" title="Walmart Company" href="https://en.wikipedia.org/wiki/Walmart" coords="336,186,377,230" shape="rect">
+            <area target="" alt="Exxon Mobil Company" title="Exxon Mobil Company" href="https://en.wikipedia.org/wiki/ExxonMobil" coords="311,256,368,295" shape="rect">
+            <area target="" alt="Apple Company" title="Apple Company" href="https://en.wikipedia.org/wiki/Apple_Inc." coords="84,148,129,194" shape="rect">
+        </map>
+    </article>
+    
+    <h2>Website creation progress</h2>
+        <progress value="69" max="100"></progress>
+
+
+    <footer>
+        <p>Author - Daniel Bernatowicz</p>
+    </footer>
+</body>
+</html>
